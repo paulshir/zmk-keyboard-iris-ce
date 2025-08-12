@@ -18,8 +18,9 @@
 #
 ---
 include:
-  - board: iris_ce_rev1_left
+  - board: iris_ce_left
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
-    artifact-name: iris_ce_rev1_left
-  - board: iris_ce_rev1_right
+    artifact-name: iris_ce_left
+  - board: iris_ce_right
+    artifact-name: iris_ce_right
